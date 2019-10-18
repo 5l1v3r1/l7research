@@ -19,7 +19,7 @@ Another way to fix DDoS attacks against website is via limiting connections. Wit
 Rate limting isn't very effective for defense against most attacks, but it can be useful in some cases. Most DDoS attacks are through the usage of infected servers or bots. These bots mainly do the attacking for the attacker, and rate limiting will be useless. If a attacker has 9,000 bots, and those 9k bots will flood your webpage, rate limtiing will stop them from connection more than once. In this instance, limiting connections and using a CDN are very effective. On the other hand, if the attacker is using a script which creates 10,000 connections to your server within a second, rate limiting is actually useful. You can set a rate limit of 10r/s (10 rates per second) and the server will only be able to connect 10 times within that second. 
 > Guide: [RGUIDE]
 
---- End of DDoS Prevention
+-- End of DDoS Prevention
 
 # Basic Layer7 Attacks 
 - HTTP-GET  | Flood of GET requests 
