@@ -1,6 +1,6 @@
 # l7research
 A repository (soon project) containing my Layer7 DDoS Research from HTTP Floods to Proxy Bypasses
-> Contact Me: https://twitter.com/FuckBinary | https://t.me/trespassed | SmallDoink#0666
+> Contact Me: https://twitter.com/FuckBinary | https://t.me/trespassed
 
 > Other Research: https://github.com/scaredos/cfresearch
 
