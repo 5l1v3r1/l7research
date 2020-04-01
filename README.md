@@ -30,30 +30,23 @@ These are the most common and basic types of Layer7 DDoS attacks. They involve n
 > To Patch: CDN, Limit Connections, Rate Limit
 
 # Advanced Layer7 Attacks
-- HTTP-NULL     | Multiple HTTP-KILL floods
-- HTTP-GOOGLE   | Uses Google Exploit to down Google Sites 
+- HTTP-KILL     | HTTP Flood 
+- HTTP-NULL     | NULL headers
+- HTTP-GOOGLE   | Uses Google Referrer to down websites
 - HTTP-RAND     | Random HTTP data 
 - HTTP-PATH     | Floods specific path
-- HTTP-BURST    | Sends Floods in Bursts
+- HTTP-BURST    | HTTP Flood in bursts
 - JSBypass-GET  | JavaScript Bypass - GET
 - JSBypass-POST | JavaScript Bypass - POST
 - JSBypass-HEAD | JavaScript Bypass - HEAD 
 - CFBypass-GET  | CloudFlare Bypass - GET
 - CFBypass-POST | CloudFlare Bypass - POST
 - BFBypass-GET  | BlazingFast Bypass - GET 
-- xBypass       | Automatic Bypass (CF, BF, Sucuri, JS, etc)
-- UAM           | Under Attack Mode Bypass (CloudFlare UAM)
-- UAMv2         | Under Attack Mode Bypass v2 (CloudFlare UAM)
+- BROWSER       | Automatic Bypass (CF, BF, Sucuri, JS, etc)
 - SLAVIC        | Random Data w/ Proxies, Bursts, and Bypasses
+
 These are some of the many advanced layer 7 DDoS attacks. These take time and skill to discover and code (sometimes). They do advanced floods with malformed data and bypasses that all look like legit traffic. In most cases, these are done from one server with the usage of proxies to hide the identity of the real attacker. The proxies allow cover and higher attack scalability, since some websites block certain ISPs and VPS/VDS providers.
 > To Patch: CDN, Limit Connections, Rate Limt, Block Proxies/TOR, DDoS Protection Services (CloudFlare Magic Transit, CloudFlare, BlazingFast, [FluxCDN] (Paid), Sucuri (Paid)
-
-### Small ToDo List:
-- [ ] Write individual summaries about advanced attacks
-
-
-
-
 
 
 [FluxCDN]: https://fluxcdn.com
